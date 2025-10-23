@@ -18,19 +18,34 @@ public class SiakadWhile26 {
                 continue;
             }
             if (nilai>80 && nilai<=100) {
+                System.out.println("-----------------------------------------");
                 System.out.println("Nilai Mahasiswa ke-" +(i+1)+ " adalah A");
+                System.out.println("Bagus, pertahankan nilainya");
+                System.out.println("-----------------------------------------");
             } else if (nilai>73 && nilai<=80) {
+                System.out.println("-----------------------------------------");
                 System.out.println("Nilai Mahasiswa ke-" +(i+1)+ " adalah B+");
+                System.out.println("-----------------------------------------");
             } else if (nilai>65 && nilai<=73) {
+                System.out.println("-----------------------------------------");
                 System.out.println("Nilai Mahasiswa ke-" +(i+1)+ " adalah B+");
+                System.out.println("-----------------------------------------");
             } else if (nilai>60 && nilai<=65) {
+                System.out.println("-----------------------------------------");
                 System.out.println("Nilai Mahasiswa ke-" +(i+1)+ " adalah C+");
+                System.out.println("-----------------------------------------");
             } else if (nilai>50 && nilai<=60) {
+                System.out.println("-----------------------------------------");
                 System.out.println("Nilai Mahasiswa ke-" +(i+1)+ " adalah C");
+                System.out.println("-----------------------------------------");
             } else if (nilai>39 && nilai<=50) {
+                System.out.println("-----------------------------------------");
                 System.out.println("Nilai Mahasiswa ke-" +(i+1)+ " adalah D");
+                System.out.println("-----------------------------------------");
             } else {
+                System.out.println("-----------------------------------------");
                 System.out.println("Nilai Mahasiswa ke-" +(i+1)+ " adalah E");
+                System.out.println("-----------------------------------------");
             }
             i++;
         }
